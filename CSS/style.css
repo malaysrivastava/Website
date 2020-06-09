@@ -1,0 +1,342 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px 0px 0px;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.row{
+  padding: 0px;
+  margin: 0px auto;
+}
+
+.footer {
+  background-color: black;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.jumbotron {
+  padding: 30px 30px 20px 30px;
+  margin: 0px auto;
+  background-image: url("img/logbak.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:auto;
+}
+.axs{
+  font-family: 'Russo One';
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+
+address {
+  font-size: 100%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+.platform{
+  padding: 0px;
+  margin: 0px auto;
+  height: 425px;
+}
+
+body {
+  padding-top: 50px;
+  z-index: 0;
+  background-color:white;
+}
+
+.navbar-dark {
+  background-image: url("img/navbak.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:lighten;
+}
+
+
+.fa {
+  padding: 4px;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+.ret {
+  padding-top: 10px;
+}
+
+.nav-item {
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+
+
+.cta {
+  width: 100%;
+  height: 50px;
+  background-color: green;
+
+  text-align: center;
+  padding-top: 10px;
+}
+.prev{
+  width: 90%;
+  height: auto;
+  background-image: url("img/appprev.png");
+
+}
+
+@media screen and (max-width: 800px) {
+  .info{
+    background-color: black;
+  }
+  #logo{
+   margin-left:33px;
+  }
+
+.platform{
+  background-image: none;
+  margin: 0;
+}
+.b2{
+  display: none;
+}
+.testhead{
+  position: relative;
+}
+.bow{
+  margin-top:30px;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+.prev{
+  display: none;
+}
+
+   .container{
+    margin:0px auto;
+   }
+   .cta:hover{
+     width: 6.6%;
+     cursor: pointer;
+   }
+   .platform{
+     margin:auto;
+   }
+   .platform3 {
+     margin:auto;
+   }
+   .platform2{
+     margin:auto;
+   }
+.testhead{
+  position: fixed;
+    top: 150px;
+    left: 100px;
+}
+.testi{
+  position: fixed;
+    top: 150px;
+
+}
+
+.bow{
+  margin-top:180px;
+  margin-left: 900px;
+  margin-bottom:auto;
+}
+
+   }
+
+   .platform{
+     padding: 0px;
+     margin: 0px auto;
+     background-image: url("img/background 1.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 422px;
+     width: 100%;
+   }
+
+   .platform2{
+     padding: 0px;
+     margin: 0px auto;
+     background-color:white;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 420px;
+     width: 100%;
+   }
+   .platform3{
+     padding: 20px;
+     padding-bottom: 50px;
+     margin: 0px auto;
+     background-color:white;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: auto;
+     width: 100%;
+   }
+
+   .can{
+     padding: 10px;
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 10px;
+     width:295px;
+     height:auto;
+     background-color: white;
+     box-shadow: 5px 5px 5px 5px grey;
+      margin:15px auto;
+   }
+
+   .can2{
+     width:auto;
+     height: 250px;
+     text-align: center;
+      padding-top: 50px;
+      border-radius: 15px;
+   margin:15px auto;
+   }
+.dev1{
+      background-color:#38B306 ;
+
+      padding-top: 52px;
+}
+.dev2{
+  background-color:#95A5A6 ;
+}
+.dev3{
+  background-color: #696EF4;
+  padding-top: 40px;
+}
+.dev4{
+  background-color:#F97063;
+  padding-top: 44px;
+}
+
+.dev1:hover{
+background-color:#0C8FB8 ;
+}
+
+.dev2:hover{
+background-color:#7D8284  ;
+}
+
+.dev3:hover{
+background-color:#746CB6  ;
+}
+.dev4:hover{
+background-color:#EA2771   ;
+}
+
+.prohead{
+  font-family: 'Bree Serif',serif;
+  font-weight: bolder;
+}
+.probody{
+  width: 100%;
+  height: auto;
+
+}
+.descp{
+  font-family: 'Rubik', sans-serif;
+  width: 90%;
+  height:140px;
+  box-shadow:5px 5px 5px 5px grey;
+  border-radius:20px;
+}
+.tstack{
+  font-family: 'Rubik', sans-serif;
+
+width: 90%;
+height: 140px;
+  box-shadow:5px 5px 5px 5px grey;
+border-radius:20px;
+}
+.cstudy{
+  font-family: 'Rubik', sans-serif;
+  width: 90%;
+
+  height: 300px;
+  box-shadow:5px 5px 5px 5px grey;
+   border-radius:20px;
+}
+
+.accordian{
+  cursor: pointer;
+}
+.ms{
+  cursor: pointer;
+  }
+.adjust{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.play{
+
+left: 45%;
+padding: 10px;
+}
+.testhead{
+
+  margin: auto;
+  padding-top:90px;
+  font-weight: bold;
+  text-align: left;
+
+
+
+}
+.write1{
+  width: 200px;
+  height: 300px;
+
+  margin: 20px 20px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 5px 5px 5px 5px purple;
+}
+
+
+
+.bow{
+
+  width:auto;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 100px;
+  padding-top: 30px
+
+}
+
+.circleplus{
+  margin-left: 38%;
+  cursor: pointer;
+}
+
+.testlogo{
+  position: relative;
+  left: -10px;
+  top: 12px;
+
+  height:100% ;
+  border-radius: 200%;
+}
