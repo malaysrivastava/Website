@@ -123,6 +123,9 @@ body {
 .bow{
   margin-top:30px;
 }
+.square{
+  height: 400px;
+}
 
 }
 
@@ -162,6 +165,9 @@ body {
   margin-top:180px;
   margin-left: 900px;
   margin-bottom:auto;
+}
+.square{
+  height: 600px;
 }
 
    }
@@ -328,7 +334,7 @@ padding: 10px;
 }
 
 .circleplus{
-  margin-left: 38%;
+  margin-left: 41%;
   cursor: pointer;
 }
 
@@ -340,3 +346,38 @@ padding: 10px;
   height:100% ;
   border-radius: 200%;
 }
+
+.square{
+  width: 90%;
+  box-shadow: 10px 10px 10px 10px grey;
+  margin: auto;
+
+}
+
+.talont{
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+  }
+
+.talont-head{
+
+  padding: 6.3%;
+  margin:auto;
+}
+.talont-body{
+
+width: 100%;
+height: auto;
+margin: 0px auto;
+  }
+
+  .talont-can{
+  width: 100%;
+  box-shadow: 3px 3px 3px 3px grey;
+  border-radius: 30px 30px 30px 30px;
+  padding: 0px 45px;
+  text-align: center;
+  margin:auto;
+  }
